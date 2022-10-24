@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chance</title>
+</head>
+
+<body>
+
+    <div class="div_1">
+        <p>Привет, я хочу проверить твою интуицию.<br><br>
+            Я буду постоянно загадывать цифру от 0 до 9. <br>
+            И после каждого твоего нажатия по клавише с цифрой,<br>буду писать какую цифру я загадывал перед твоим
+            нажатием.<br>
+            <br>
+            Я буду отображать статистику для тебя, чтобы ты понимал, насколько хороша твоя интуиция.<br><br>
+            У тебя очень хорошая интуиция, если получается держать процент угаданных цифр больше 10%<br>
+        </p>
+        <br>
+        <div class="box_numbers">
+            <div class="inbox">
+                <h2>Игрок</h2><span class="my_digit numbers">&nbsp</span>
+            </div>
+
+            <div class="inbox">
+                <h2>Компьютер</h2><span class="computer_digit numbers">&nbsp</span>
+            </div>
+        </div>
+
+
+
+        <p>Количество нажатий: <span class="clicks"></span></p>
+        <p>Количество попаданий: <span class="hits"></span></p>
+        <p>Итоговая статистика попаданий: <span class="stats"></span></p>
+        <p class="error_message"></p>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
